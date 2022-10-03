@@ -12,6 +12,7 @@ public class MessagesListener implements Listener {
     public void onJoin(PlayerJoinEvent event){
         Player player = event.getPlayer();
         event.setJoinMessage(ChatColor.AQUA + player.getName() + "" + ChatColor.GRAY + "Joined the Server ...");
+        //Message when you join.
 
     }
 
@@ -19,5 +20,6 @@ public class MessagesListener implements Listener {
     public void onQuit(PlayerQuitEvent event){
         Player player = event.getPlayer();
         event.setQuitMessage(ChatColor.AQUA + player.getName() + "" + ChatColor.GRAY + "Left the Server -.-" );
+        //Message when you Quit
     }
 }
