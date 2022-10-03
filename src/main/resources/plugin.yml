@@ -1,0 +1,10 @@
+name: NetworkCore
+version: '${project.version}'
+main: net.pellnyit.networkcore.NetworkCore
+api-version: 1.19
+authors: [ LukasDev, MyCodeDE ]
+description: A Network Core System with many Commands and Listeners...
+website: lukas-development.com
+commands:
+  help:
+    aliases: [hilfe]
