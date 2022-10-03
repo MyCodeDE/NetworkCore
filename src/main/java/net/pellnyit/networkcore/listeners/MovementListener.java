@@ -5,7 +5,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerMoveEvent;
 
-//Thats a weird System :D
+//Thats a weird System xD
 
 public class MovementListener implements Listener {
     @EventHandler
